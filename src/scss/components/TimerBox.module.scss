@@ -1,0 +1,14 @@
+@use "../utils" as u;
+
+.timerBox {
+  display: flex;
+  align-items: flex-start;
+
+  span {
+    margin-top: u.rem(12);
+  }
+
+  & > :not(:last-child) {
+    margin-right: u.rem(10);
+  }
+}

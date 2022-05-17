@@ -1,0 +1,14 @@
+.wrapper {
+  min-height: 100vh;
+  background: url(../../assets/images/hero-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  display: flex;
+  align-items: center;
+
+  main {
+    max-width: 50%;
+    width: 100%;
+  }
+}

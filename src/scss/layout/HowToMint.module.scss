@@ -1,0 +1,12 @@
+@use "../globals/colors" as colors;
+@use "../utils" as u;
+
+.wrapper {
+  background-color: colors.$dark-blue;
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: u.rem(36);
+  }
+}

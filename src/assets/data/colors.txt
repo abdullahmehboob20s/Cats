@@ -1,0 +1,118 @@
+1st sec button background #e19a12
+
+font family 
+Oswald-Regular
+
+background (2nd sec blue bg)
+ background-image: radial-gradient(circle at 51% 93%, #1c1455, #0b062a 70%);
+
+mint date color #e19a12
+
+3333
+background-image: linear-gradient(101deg, #24cfd4 27%, #5742e5 77%);
+  font-family: Poppins;
+-webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+social icon purple border
+
+  border: solid 2px #995eef;
+
+how to mint (  background-color: #0c0920;
+)
+
+
+white tick bg
+  background-color: #83b784;
+
+3. Max 1 mint per whitelisted wallet.
+
+(  background-color: #a36969;)
+
+4 point (  background-color: #e19a12;
+)
+
+4. point FREE text (#07eaff)
+
+4. point (you will only... )(#3a5ab8)
+
+
+footer bg
+ background-image: radial-gradient(circle at 51% 50%, #1c1455, #0b062a 63%);
+
+
+
+
+
+
+
+
+
+
+all test
+
+1st section
+
+by boss Cat Rocket Club
+
+Introducing the official cross-chain Boss Planet compatible Avatars, a collection of 3,333 unique Vox Cats to be minted for FREE on the Ethereum Blockchain.
+
+CONNECT WALLET
+
+2nd section
+
+MINT DATE: MAY 20th 17:00 PST
+
+3rd section:
+
+:: TOTAL SUPPLY
+
+With the tremendous success of 3 top-ten all-time projects in the Cardano NFT space, Boss Planet Vox Cats is the first NFT collection from the Boss Cat Rocket Club family to launch on Ethereum. Not only making the cross-chain Boss Planet Metaverse a reality, but also uniting and building the communities stronger than ever.
+
+4th section
+
+WHITELIST
+
+This is a Whitelist-only FREE MINT. Whitelist spots are given to Discord members over Level 20. Whitelist submission ends on May 18th 17:00 PST.
+
+For more information on the Boss Planet Vox Cat FREE MINT, join our Discord and follow us on Twitter.
+
+
+5th section
+
+1. Connect your MetaMask Wallet.
+
+2. Check your Whitelist eligibility.
+
+3. Max 1 mint per whitelisted wallet.
+
+4. Mint for FREE. (You will only be responsible for the gas fee.)
+
+5th section
+
+THE BOSS CAT ROCKET CLUB FAMILY
+
+card 1
+
+Boss Cat Rocket Club
+
+card 2
+
+Boss Cat Rocket Parts
+
+card 3
+
+Boss Planet
+
+footer
+
+Copyright © Boss Planet | Boss Cat Rocket Club | Terms & Conditions
+
+
+
+
+
+
+

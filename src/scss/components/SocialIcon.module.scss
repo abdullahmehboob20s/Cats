@@ -1,0 +1,15 @@
+@use "../utils" as u;
+
+.link {
+  $size: u.rem(60);
+
+  width: $size;
+  height: $size;
+  font-size: $size;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #995eef;
+}

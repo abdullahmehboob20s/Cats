@@ -1,0 +1,51 @@
+/* COLORS */
+
+$dark-blue: #0c0920;
+$blue: #3a5ab8;
+$sky-blue: #6cd4ef;
+$dark-blue-2: #475387;
+
+$yellow: #e19a12;
+$purple: #995eef;
+$light-green: #83b784;
+$brown: #a36969;
+$footer-bg: radial-gradient(circle at 51% 50%, #1c1455, #0b062a 63%);
+$sky-purple-gradient: linear-gradient(101deg, #24cfd4 5%, #5742e5 20%);
+$purpel-gradient: radial-gradient(circle at 51% 93%, #1c1455, #0b062a 70%);
+
+.black {
+  color: #000000;
+}
+.white {
+  color: #fafcff;
+}
+
+// BLUES
+.blue {
+  color: $blue;
+}
+.dark-blue {
+  color: $dark-blue;
+}
+.dark-blue-2 {
+  color: $dark-blue-2;
+}
+.sky-blue {
+  color: $sky-blue;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.gradient-text {
+  background: $sky-purple-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// BACKGROUNDS
+
+// .bg-pink {
+//   background-color: $pink;
+// }

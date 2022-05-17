@@ -1,0 +1,6 @@
+@use "../globals/colors" as colors;
+@use "../utils" as u;
+
+.wrapper {
+  background: colors.$purpel-gradient;
+}

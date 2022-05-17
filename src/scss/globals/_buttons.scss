@@ -1,0 +1,14 @@
+@use "../globals/colors" as colors;
+@use "../utils" as u;
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.button-yellow {
+  background-color: colors.$yellow;
+  padding: u.rem(14) u.rem(34);
+  box-shadow: 0 0 u.rem(12) rgba(0, 0, 0, 0.2);
+}

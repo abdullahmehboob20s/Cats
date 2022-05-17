@@ -1,0 +1,25 @@
+@use "../utils" as u;
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  main {
+    display: flex;
+    align-items: center;
+
+    & > :not(:last-child) {
+      margin-right: u.rem(16);
+    }
+  }
+
+  aside {
+    display: flex;
+    align-items: center;
+
+    & > :not(:last-child) {
+      margin-right: u.rem(30);
+    }
+  }
+}

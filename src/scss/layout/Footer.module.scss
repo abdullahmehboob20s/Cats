@@ -1,0 +1,5 @@
+@use "../globals/colors" as colors;
+
+.footer {
+  background: colors.$footer-bg;
+}
