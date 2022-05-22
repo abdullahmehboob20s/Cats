@@ -1,3 +1,5 @@
+@use "../utils" as *;
+
 .wrapper {
   min-height: 100vh;
   background: url(../../assets/images/hero-bg.png);
@@ -10,5 +12,26 @@
   main {
     max-width: 50%;
     width: 100%;
+
+    button {
+      max-width: 280px;
+      width: 100%;
+    }
+
+    .walletConnected {
+      display: flex;
+      align-items: center;
+
+      & > :not(:last-child) {
+        margin-right: rem(10);
+      }
+    }
+
+    .mintingNotAvailable {
+      padding: rem(16) rem(20);
+      border: rem(2) solid white;
+      border-radius: rem(8);
+      margin-top: rem(30);
+    }
   }
 }

@@ -3,6 +3,7 @@
 $dark-blue: #0c0920;
 $blue: #3a5ab8;
 $sky-blue: #6cd4ef;
+$sky-blue-2: #3db1fe;
 $dark-blue-2: #475387;
 
 $yellow: #e19a12;
@@ -32,6 +33,9 @@ $purpel-gradient: radial-gradient(circle at 51% 93%, #1c1455, #0b062a 70%);
 }
 .sky-blue {
   color: $sky-blue;
+}
+.sky-blue-2 {
+  color: $sky-blue-2;
 }
 
 .yellow {
