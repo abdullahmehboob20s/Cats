@@ -5,7 +5,6 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-auto-flow: 1fr;
-  //   grid-template-rows: minmax(50px, auto) 1fr;
   gap: u.rem(36);
 
   img {
@@ -35,5 +34,52 @@
   main {
     grid-column: 4/-1;
     grid-row: 3/-1;
+  }
+
+  @include u.breakpoint(xLarge) {
+    gap: u.rem(24);
+  }
+  @include u.breakpoint(large) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: 1fr;
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+      grid-row: 1/2;
+    }
+
+    .img6,
+    .img8 {
+      grid-row: 2/3;
+    }
+    .img7 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    .img5 {
+      grid-column: 4/-1;
+      grid-row: 2/3;
+    }
+
+    main {
+      grid-column: 1/-1;
+      grid-row: auto;
+    }
+  }
+
+  @include u.breakpoint(xsmall) {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+
+    & > img {
+      grid-column: unset !important;
+      grid-row: unset !important;
+    }
+
+    gap: u.rem(16);
   }
 }

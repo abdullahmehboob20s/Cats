@@ -1,15 +1,19 @@
-@use "../utils" as u;
+@use "../utils" as *;
 
 .link {
-  $size: u.rem(60);
+  --size: 3.75rem;
 
-  width: $size;
-  height: $size;
-  font-size: $size;
+  width: var(--size);
+  height: var(--size);
+  font-size: var(--size);
 
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: solid 2px #995eef;
+
+  @include breakpoint(small) {
+    --size: 2.6rem;
+  }
 }

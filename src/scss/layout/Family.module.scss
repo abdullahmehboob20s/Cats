@@ -1,9 +1,16 @@
-@use "../utils" as u;
+@use "../utils" as *;
 
 .wrapper {
   main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: u.rem(40);
+    gap: rem(40);
+  }
+
+  @include breakpoint(small) {
+    main {
+      grid-template-columns: repeat(1, 1fr);
+      gap: rem(40);
+    }
   }
 }

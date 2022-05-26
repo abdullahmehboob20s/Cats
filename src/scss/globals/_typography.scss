@@ -302,20 +302,51 @@ a {
 //     font-size: u.rem(16);
 //   }
 // }
-// @include u.breakpoint(xLarge) {
-//   .fs-22px {
-//     font-size: u.rem(16);
-//   }
-//   .fs-64px {
-//     font-size: u.rem(36);
-//   }
-//   .fs-54px {
-//     font-size: u.rem(24);
-//   }
-//   .fs-30px {
-//     font-size: u.rem(24);
-//   }
-// }
+@include u.breakpoint(xLarge) {
+  .fs-24px {
+    font-size: u.rem(20);
+  }
+  .fs-22px {
+    font-size: u.rem(18);
+  }
+  .fs-40px {
+    font-size: u.rem(34);
+  }
+  .fs-56px {
+    font-size: u.rem(40);
+  }
+  .fs-18px {
+    font-size: u.rem(16);
+  }
+  .fs-20px {
+    font-size: u.rem(18);
+  }
+}
+@include u.breakpoint(large) {
+  .fs-40px {
+    font-size: u.rem(28);
+  }
+
+  .fs-56px {
+    font-size: u.rem(34);
+  }
+  .fs-46px {
+    font-size: u.rem(36);
+  }
+}
+
+@include u.breakpoint(small) {
+  .fs-24px {
+    font-size: u.rem(18);
+  }
+  .fs-22px {
+    font-size: u.rem(16);
+  }
+
+  .fs-20px {
+    font-size: u.rem(16);
+  }
+}
 // @include u.breakpoint(large) {
 //   .fs-64px {
 //     font-size: u.rem(34);

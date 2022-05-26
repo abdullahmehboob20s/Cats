@@ -34,7 +34,11 @@ function Hero() {
     <div className={`${styles.wrapper}`}>
       <div className="container-wrapper">
         <main>
-          <img src={voxCatTitle} className="mb-40px" alt="" />
+          <img
+            src={voxCatTitle}
+            className={`${styles.logoImg} mb-40px`}
+            alt=""
+          />
           <p className="fs-24px lh-1_6 white weight-4 mb-45px">
             Introducing the official cross-chain Boss Planet compatible Avatars,
             a collection of 3,333 unique Vox Cats to be minted for{" "}
@@ -51,7 +55,7 @@ function Hero() {
 
               <div className={styles.walletConnected}>
                 <p className="fs-18px sky-blue-2">Wallet Connected :</p>
-                <p className="fs-18px white">
+                <p className={`${styles.walletId} fs-18px white`}>
                   0x2D4e853789754960d06E90c4159e704bA8768478
                 </p>
               </div>

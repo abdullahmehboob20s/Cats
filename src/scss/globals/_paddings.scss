@@ -47,9 +47,9 @@
   padding-bottom: 0;
 }
 
-// @include u.breakpoint(large) {
-//   .py-100px {
-//     padding-top: u.rem(60);
-//     padding-bottom: u.rem(60);
-//   }
-// }
+@include u.breakpoint(large) {
+  .py-100px {
+    padding-top: u.rem(60);
+    padding-bottom: u.rem(60);
+  }
+}
