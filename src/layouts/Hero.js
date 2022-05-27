@@ -6,6 +6,7 @@ import cat1 from "assets/images/cat1.png";
 import cat2 from "assets/images/cat2.png";
 import cat3 from "assets/images/cat3.png";
 import cat4 from "assets/images/cat4.png";
+import cat from "assets/images/hero-bgs/cat.png";
 
 function Hero() {
   const [isConnected, setIsConnected] = useState(false);
@@ -79,6 +80,8 @@ function Hero() {
               connect wallet
             </button>
           )}
+
+          <img src={cat} className={`${styles.bg_cat}`} alt="" />
         </main>
 
         {/* <Modal img={cat4} shouldShow={showModal} setModalState={setShowModal}>

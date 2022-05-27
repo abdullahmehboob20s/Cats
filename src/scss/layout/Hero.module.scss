@@ -13,6 +13,10 @@
     max-width: 50%;
     width: 100%;
 
+    .bg_cat {
+      display: none;
+    }
+
     button {
       max-width: rem(280);
       width: 100%;
@@ -68,10 +72,10 @@
     padding: rem(40) 0;
     text-align: center;
     justify-content: center;
-    background: url(../../assets/images/hero-mobile-bg.png);
+    background: url(../../assets/images/hero-bgs/cat-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: bottom;
 
     main {
       display: flex;
@@ -84,6 +88,13 @@
       .logoImg {
         max-width: rem(220);
         width: 100%;
+      }
+
+      .bg_cat {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: rem(80);
       }
     }
   }
