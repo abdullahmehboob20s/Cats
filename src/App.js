@@ -9,7 +9,7 @@ import "scss/index.scss";
 function App() {
   return (
     <div>
-      <Hero />
+      {/* <Hero /> */}
       <Mint />
       <MainContent />
       <HowToMint />
